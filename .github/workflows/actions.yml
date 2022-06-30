@@ -1,0 +1,15 @@
+name: new workflow
+
+on: [push]
+
+jobs:
+  run-github-flows:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: actions
+         id: sample
+         uses: actions/hello-world-javascript-action@v1
+         with:
+          who-to-greet: 'Manikanta and ujwala'
+      -  name: output actions
+         run: echo "{{steps.sample.output.time}}"
