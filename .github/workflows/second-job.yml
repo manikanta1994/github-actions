@@ -13,3 +13,9 @@ jobs:
            uname
            node -v
            echo "helo github"  
+      -  name: pythom command
+         run: |
+           import platform
+           print(platform.processor())
+         shell: python
+           
