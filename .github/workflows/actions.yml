@@ -11,5 +11,5 @@ jobs:
          uses: actions/hello-world-javascript-action@v1
          with:
           who-to-greet: 'Manikanta and ujwala'
-      -  name: output actions
-         run: echo "{{steps.sample.output.time}}"
+      # -  name: output actions
+      #    run: echo "{{steps.sample.output.time}}"
