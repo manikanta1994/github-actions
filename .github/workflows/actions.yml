@@ -12,6 +12,14 @@ jobs:
            ls
            node -v
            df -h
+      -  name: checkout
+         uses: actions/checkout@v1
+      -  name: list files after checkout
+         run: |
+           pwd
+           ls -a
+           node -v
+           df -h
       -  name: actions
          id: greet
          uses: actions/hello-world-javascript-action@v1
