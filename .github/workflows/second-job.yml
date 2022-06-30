@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       -  name: my first job
-          run: ls -ltr
+         run: ls -ltr
       -  name: multistage
-          run : |
-            uname
-            node -v
-            echo "helo github"  
+         run : |
+           uname
+           node -v
+           echo "helo github"  
