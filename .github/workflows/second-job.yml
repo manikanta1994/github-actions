@@ -3,7 +3,7 @@ name: first code yml
 on: [push]
 
 jobs:
-  my first code:
+  my-first-code:
     runs-on: ubuntu-latest
     steps: 
       -  name: my first job
