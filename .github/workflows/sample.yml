@@ -1,0 +1,17 @@
+name: shell commands
+
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps: 
+      -  name: first action
+         run: echo "hello wold"
+      -  name: multiple commads to execute
+         run: |
+           node -v
+           uname 
+           uptime 
+           ls -ltr
+           
