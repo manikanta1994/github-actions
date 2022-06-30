@@ -12,4 +12,4 @@ jobs:
          with:
            who-to-greet: 'Manikanta and ujwala'
       -  name: output actions
-         run: echo "${{ steps.greet.output.time }}"
+         run: echo "${{ steps.greet.outputs.time }}"
