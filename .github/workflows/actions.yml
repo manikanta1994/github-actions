@@ -6,6 +6,12 @@ jobs:
   run-github-flows:
     runs-on: ubuntu-latest
     steps:
+      -  name: list files
+         run: |
+           pwd
+           ls
+           node -v
+           df -h
       -  name: actions
          id: greet
          uses: actions/hello-world-javascript-action@v1
