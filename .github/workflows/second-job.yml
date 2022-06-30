@@ -15,7 +15,7 @@ jobs:
            echo "helo github"  
       -  name: pythom command
          run: |
-           import platform
+           import plahgvtform
            print(platform.processor())
          shell: python
   run-windows-commands:
