@@ -1,6 +1,6 @@
 name: matrix-sample
 
-on: push
+on: pull_request
 jobs:
   to-check-node-version:
     strategy: 
