@@ -1,6 +1,6 @@
 name: new workflow
 
-on: [push]
+on: [push, pull_requests]
 
 jobs:
   run-github-flows:
